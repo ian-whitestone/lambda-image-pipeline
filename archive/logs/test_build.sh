@@ -1,0 +1,129 @@
+-- General configuration for OpenCV 3.2.0 =====================================
+--   Version control:               unknown
+--
+--   Platform:
+--     Timestamp:                   2018-05-29T01:43:25Z
+--     Host:                        Linux 4.14.33-51.37.amzn1.x86_64 x86_64
+--     CMake:                       2.8.12.2
+--     CMake generator:             Unix Makefiles
+--     CMake build tool:            /usr/bin/gmake
+--     Configuration:               RELEASE
+--
+--   C/C++:
+--     Built as dynamic libs?:      YES
+--     C++ Compiler:                /usr/bin/c++  (ver 4.8.5)
+--     C++ flags (Release):         -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffast-math -msse -msse2 -mavx -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -mf16c -O3 -DNDEBUG  -DNDEBUG
+--     C++ flags (Debug):           -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffast-math -msse -msse2 -mavx -ffunction-sections -fvisibility=hidden -fvisibility-inlines-hidden -mf16c -g  -O0 -DDEBUG -D_DEBUG
+--     C Compiler:                  /usr/bin/cc
+--     C flags (Release):           -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffast-math -msse -msse2 -mavx -ffunction-sections -fvisibility=hidden -mf16c -O3 -DNDEBUG  -DNDEBUG
+--     C flags (Debug):             -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffast-math -msse -msse2 -mavx -ffunction-sections -fvisibility=hidden -mf16c -g  -O0 -DDEBUG -D_DEBUG
+--     Linker flags (Release):
+--     Linker flags (Debug):
+--     ccache:                      NO
+--     Precompiled headers:         YES
+--     Extra dependencies:          dl m pthread rt
+--     3rdparty dependencies:       zlib libjpeg libwebp libpng libtiff libjasper IlmImf
+--
+--   OpenCV modules:
+--     To be built:                 core flann imgproc ml photo video imgcodecs shape videoio highgui objdetect superres features2d calib3d stitching videostab python2
+--     Disabled:                    world
+--     Disabled by dependency:      -
+--     Unavailable:                 cudaarithm cudabgsegm cudacodec cudafeatures2d cudafilters cudaimgproc cudalegacy cudaobjdetect cudaoptflow cudastereo cudawarping cudev java python3 ts viz
+--
+--   GUI:
+--     QT:                          NO
+--     GTK+:                        NO
+--     GThread :                    NO
+--     GtkGlExt:                    NO
+--     OpenGL support:              NO
+--     VTK support:                 NO
+--
+--   Media I/O:
+--     ZLib:                        zlib (ver 1.2.8)
+--     JPEG:                        libjpeg (ver 90)
+--     WEBP:                        build (ver 0.3.1)
+--     PNG:                         build (ver 1.6.24)
+--     TIFF:                        build (ver 42 - 4.0.2)
+--     JPEG 2000:                   build (ver 1.900.1)
+--     OpenEXR:                     build (ver 1.7.1)
+--     GDAL:                        NO
+--     GDCM:                        NO
+--
+--   Video I/O:
+--     DC1394 1.x:                  NO
+--     DC1394 2.x:                  NO
+--     FFMPEG:                      NO
+--       avcodec:                   NO
+--       avformat:                  NO
+--       avutil:                    NO
+--       swscale:                   NO
+--       avresample:                NO
+--     GStreamer:                   NO
+--     OpenNI:                      NO
+--     OpenNI PrimeSensor Modules:  NO
+--     OpenNI2:                     NO
+--     PvAPI:                       NO
+--     GigEVisionSDK:               NO
+--     Aravis SDK:                  NO
+--     UniCap:                      NO
+--     UniCap ucil:                 NO
+--     V4L/V4L2:                    NO/YES
+--     XIMEA:                       NO
+--     Xine:                        NO
+--     gPhoto2:                     NO
+--
+--   Parallel framework:            pthreads
+--
+--   Other third-party libraries:
+--     Use IPP:                     9.0.1 [9.0.1]
+--          at:                     /home/ec2-user/build/opencv-3.2.0/my-build/3rdparty/ippicv/ippicv_lnx
+--     Use IPP Async:               NO
+--     Use VA:                      NO
+--     Use Intel VA-API/OpenCL:     NO
+--     Use Lapack:                  NO
+--     Use Eigen:                   NO
+--     Use Cuda:                    NO
+--     Use OpenCL:                  YES
+--     Use OpenVX:                  NO
+--     Use custom HAL:              NO
+--
+--   OpenCL:                        <Dynamic loading of OpenCL library>
+--     Include path:                /home/ec2-user/build/opencv-3.2.0/3rdparty/include/opencl/1.2
+--     Use AMDFFT:                  NO
+--     Use AMDBLAS:                 NO
+--
+--   Python 2:
+--     Interpreter:                 /home/ec2-user/project/bin/python2.7 (ver 2.7.14)
+--     Libraries:                   /usr/lib64/libpython2.7.so (ver 2.7.14)
+--     numpy:                       /home/ec2-user/lambda-package/numpy/core/include (ver 1.14.3)
+--     packages path:               lib/python2.7/site-packages
+--
+--   Python 3:
+--     Interpreter:                 NO
+--
+--   Python (for build):            /home/ec2-user/project/bin/python2.7
+--
+--   Java:
+--     ant:                         NO
+--     JNI:                         NO
+--     Java wrappers:               NO
+--     Java tests:                  NO
+--
+--   Matlab:                        Matlab not found or implicitly disabled
+--
+--   Documentation:
+--     Doxygen:                     NO
+--
+--   Tests and samples:
+--     Tests:                       NO
+--     Performance tests:           NO
+--     C/C++ Examples:              NO
+--
+--   Install path:                  /usr/local
+--
+--   cvconfig.h is in:              /home/ec2-user/build/opencv-3.2.0/my-build
+-- -----------------------------------------------------------------
+--
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ec2-user/build/opencv-3.2.0/my-build

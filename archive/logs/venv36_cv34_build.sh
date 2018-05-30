@@ -1,0 +1,184 @@
+--   Other third-party libraries:
+--     Intel IPP:                   2017.0.3 [2017.0.3]
+--            at:                   /home/ec2-user/opencv-3.4.1/my-build/3rdparty/ippicv/ippicv_lnx
+--     Intel IPP IW:                sources (2017.0.3)
+--               at:                /home/ec2-user/opencv-3.4.1/my-build/3rdparty/ippicv/ippiw_lnx
+--     Lapack:                      NO
+--     Eigen:                       NO
+--     Custom HAL:                  NO
+--     Protobuf:                    build (3.5.1)
+--
+--   NVIDIA CUDA:                   NO
+--
+--   OpenCL:                        YES (no extra features)
+--     Include path:                /home/ec2-user/opencv-3.4.1/3rdparty/include/opencl/1.2
+--     Link libraries:              Dynamic load
+--
+--   Python 3:
+--     Interpreter:                 /home/ec2-user/project/bin/python3 (ver 3.6.5)
+--     Libraries:                   /usr/lib64/libpython3.6m.so (ver 3.6.5)
+--     numpy:                       /home/ec2-user/lambda-package/numpy/core/include (ver )
+--     packages path:               lib/python3.6/site-packages
+--
+--   Python (for build):            /usr/bin/python2.7
+--
+--   Java:
+--     ant:                         NO
+--     JNI:                         NO
+--     Java wrappers:               NO
+--     Java tests:                  NO
+--
+--   Matlab:                        NO
+--
+--   Install to:                    /usr/local
+-- -----------------------------------------------------------------
+--
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ec2-user/opencv-3.4.1/my-build
+
+
+    cmake                                       \
+        -D CMAKE_BUILD_TYPE=RELEASE             \
+        -D WITH_TBB=ON                          \
+        -D WITH_IPP=ON                          \
+        -D WITH_V4L=ON                          \
+        -D ENABLE_AVX=ON                        \
+        -D ENABLE_SSSE3=ON                      \
+        -D ENABLE_SSE41=ON                      \
+        -D ENABLE_SSE42=ON                      \
+        -D ENABLE_POPCNT=ON                     \
+        -D ENABLE_FAST_MATH=ON                  \
+        -D BUILD_EXAMPLES=OFF                   \
+        -D BUILD_TESTS=OFF                      \
+        -D BUILD_PERF_TESTS=OFF                 \
+        -D PYTHON3_NUMPY_INCLUDE_DIRS="$NUMPY"  \
+        ..
+
+
+
+
+--   Other third-party libraries:
+--     Intel IPP:                   2017.0.3 [2017.0.3]
+--            at:                   /home/ec2-user/opencv-3.4.1/my-build/3rdparty/ippicv/ippicv_lnx
+--     Intel IPP IW:                sources (2017.0.3)
+--               at:                /home/ec2-user/opencv-3.4.1/my-build/3rdparty/ippicv/ippiw_lnx
+--     Lapack:                      NO
+--     Eigen:                       NO
+--     Custom HAL:                  NO
+--     Protobuf:                    build (3.5.1)
+--
+--   NVIDIA CUDA:                   NO
+--
+--   OpenCL:                        YES (no extra features)
+--     Include path:                /home/ec2-user/opencv-3.4.1/3rdparty/include/opencl/1.2
+--     Link libraries:              Dynamic load
+--
+--   Python 3:
+--     Interpreter:                 /home/ec2-user/project/bin/python3 (ver 3.6.5)
+--     Libraries:                   /usr/lib64/libpython3.6m.so (ver 3.6.5)
+--     numpy:                       /home/ec2-user/lambda-package/numpy/core/include (ver )
+--     packages path:               lib/python3.6/site-packages
+--
+--   Python (for build):            /home/ec2-user/project/bin/python3
+--
+--   Java:
+--     ant:                         NO
+--     JNI:                         NO
+--     Java wrappers:               NO
+--     Java tests:                  NO
+--
+--   Matlab:                        NO
+--
+--   Install to:                    /usr/local
+-- -----------------------------------------------------------------
+
+
+    cmake                                       \
+        -D CMAKE_BUILD_TYPE=RELEASE             \
+        -D WITH_TBB=ON                          \
+        -D WITH_IPP=ON                          \
+        -D WITH_V4L=ON                          \
+        -D ENABLE_AVX=ON                        \
+        -D ENABLE_SSSE3=ON                      \
+        -D ENABLE_SSE41=ON                      \
+        -D ENABLE_SSE42=ON                      \
+        -D ENABLE_POPCNT=ON                     \
+        -D ENABLE_FAST_MATH=ON                  \
+        -D BUILD_EXAMPLES=OFF                   \
+        -D BUILD_TESTS=OFF                      \
+        -D BUILD_PERF_TESTS=OFF                 \
+        -D PYTHON3_NUMPY_INCLUDE_DIRS="$NUMPY"  \
+        -D PYTHON_EXECUTABLE=/home/ec2-user/project/bin/python \
+        ..
+
+
+--       swscale:                   NO
+--       avresample:                NO
+--     GStreamer:                   NO
+--     libv4l/libv4l2:              NO
+--     v4l/v4l2:                    linux/videodev2.h
+--     gPhoto2:                     NO
+--
+--   Parallel framework:            pthreads
+--
+--   Trace:                         YES (with Intel ITT)
+--
+--   Other third-party libraries:
+--     Intel IPP:                   2017.0.3 [2017.0.3]
+--            at:                   /home/ec2-user/opencv-3.4.1/my-build/3rdparty/ippicv/ippicv_lnx
+--     Intel IPP IW:                sources (2017.0.3)
+--               at:                /home/ec2-user/opencv-3.4.1/my-build/3rdparty/ippicv/ippiw_lnx
+--     Lapack:                      NO
+--     Eigen:                       NO
+--     Custom HAL:                  NO
+--     Protobuf:                    build (3.5.1)
+--
+--   NVIDIA CUDA:                   NO
+--
+--   OpenCL:                        YES (no extra features)
+--     Include path:                /home/ec2-user/opencv-3.4.1/3rdparty/include/opencl/1.2
+--     Link libraries:              Dynamic load
+--
+--   Python 3:
+--     Interpreter:                 /home/ec2-user/project/bin/python3 (ver 3.6.5)
+--     Libraries:                   /usr/lib64/libpython3.6m.so (ver 3.6.5)
+--     numpy:                       /home/ec2-user/lambda-package/numpy/core/include (ver )
+--     packages path:               lib/python3.6/site-packages
+--
+--   Python (for build):            /home/ec2-user/project/bin/python3
+--
+--   Java:
+--     ant:                         NO
+--     JNI:                         NO
+--     Java wrappers:               NO
+--     Java tests:                  NO
+--
+--   Matlab:                        NO
+--
+--   Install to:                    /usr/local
+-- -----------------------------------------------------------------
+--
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ec2-user/opencv-3.4.1/my-build
+
+
+    cmake                                       \
+        -D CMAKE_BUILD_TYPE=RELEASE             \
+        -D WITH_TBB=ON                          \
+        -D WITH_IPP=ON                          \
+        -D WITH_V4L=ON                          \
+        -D ENABLE_AVX=ON                        \
+        -D ENABLE_SSSE3=ON                      \
+        -D ENABLE_SSE41=ON                      \
+        -D ENABLE_SSE42=ON                      \
+        -D ENABLE_POPCNT=ON                     \
+        -D ENABLE_FAST_MATH=ON                  \
+        -D BUILD_EXAMPLES=OFF                   \
+        -D BUILD_TESTS=OFF                      \
+        -D BUILD_PERF_TESTS=OFF                 \
+        -D PYTHON3_NUMPY_INCLUDE_DIRS="$NUMPY"  \
+        -D PYTHON_EXECUTABLE=/home/ec2-user/project/bin/python \
+        -D PYTHON3_INCLUDE_DIR=/home/ec2-user/project/include/python3.6m/ \
+        ..
