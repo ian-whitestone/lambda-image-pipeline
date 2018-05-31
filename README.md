@@ -31,10 +31,22 @@ Host ec2
 
 ## Useful References
 
+### General Articles about Extension modules in Lambda
 * https://markn.ca/2018/02/python-extension-modules-in-aws-lambda/
+* https://blog.mapbox.com/aws-lambda-python-magic-e0f6a407ffc6
+* https://www.iheavy.com/2016/02/14/getting-errors-building-amazon-lambda-python-functions-help-howto/
+* https://www.quora.com/How-do-I-create-a-Python-AWS-Lambda-zip-with-OpenCV-+-FFmpeg
+
+### OpenCV Installation
 * https://gist.github.com/joseph-zhong/372a47bb618111dcd2c81008d00357b2
 * https://github.com/aeddi/aws-lambda-python-opencv/blob/master/build.sh
+* https://github.com/opencv/opencv/issues/6464
 * https://www.pyimagesearch.com/2015/07/27/installing-opencv-3-0-for-both-python-2-7-and-python-3-on-your-raspberry-pi-2/
 * https://www.pyimagesearch.com/2015/07/20/install-opencv-3-0-and-python-3-4-on-ubuntu/
 
-https://github.com/opencv/opencv/issues/6464
+### Tesseract Installation
+* https://stackoverflow.com/questions/33588262/tesseract-ocr-on-aws-lambda-via-virtualenv
+
+### Repos with Compiled Packages
+* https://github.com/Miserlou/lambda-packages
+* https://github.com/mapbox/aws-lambda-python-packages
