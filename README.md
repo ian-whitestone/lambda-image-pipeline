@@ -36,6 +36,7 @@ Host ec2
 * https://blog.mapbox.com/aws-lambda-python-magic-e0f6a407ffc6
 * https://www.iheavy.com/2016/02/14/getting-errors-building-amazon-lambda-python-functions-help-howto/
 * https://www.quora.com/How-do-I-create-a-Python-AWS-Lambda-zip-with-OpenCV-+-FFmpeg
+* Building packages with docker: https://blog.orikami.nl/building-scipy-pandas-and-numpy-for-aws-lambda-python-3-6-cba9355b44e9
 
 ### OpenCV Installation
 * https://gist.github.com/joseph-zhong/372a47bb618111dcd2c81008d00357b2
